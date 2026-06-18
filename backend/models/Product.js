@@ -1,7 +1,7 @@
 const mongoose=require("mongoose");
 
-const productSchema=new.mongooseSchema({
-    projectName:{
+const productSchema=new mongoose.Schema({
+    productName:{
         type:String,
         required:true,
     },
